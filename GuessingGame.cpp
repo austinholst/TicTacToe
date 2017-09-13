@@ -2,6 +2,13 @@
 
 using namespace std;
 
+/*
+ *Name: Austin Holst
+ *Date: 09 - 13 - 17
+ *Code: Number guessing game against the computer. Guess the number between
+ *1-100 and it will tell you how many tries it took
+ */
+
 int main() {
  
   bool stillPlaying = true;
@@ -20,7 +27,7 @@ int main() {
 
     //Comparing numbers
     while(userNum != randomNum) {
-      //Too big
+      //Too High
       if (userNum > randomNum) {
        cout << "your number was bigger than mine. Choose again." << endl;
        turns++;
