@@ -1,5 +1,7 @@
 #include <iostream>
+#include <string.h>
 using namespace std;
+
 /*
  *Name: Austin Holst
  *Date: 09 - 19 - 2017
