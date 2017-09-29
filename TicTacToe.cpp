@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cstring>
+#include <stdio.h>
 using namespace std;
 
 /* Name: Austin Holst
